@@ -1,6 +1,6 @@
 # MorFacing: Face Morphing Robustness benchmarking
 
-This repo includes functionality for morphing attack detection benchmarking from the paper "MorDeephy: Face Morphing Detection Via Fused Classification".
+This repo includes functionality for robustness of face recognition methods to face morphing attacks from the paper: "MorFacing: A Benchmark for Estimation Face Recognition Robustness to Face Morphing Attacks".
 The project may be used for performing benchmarks on developer side and further submitting results for comparison between different developers.
 The project only unifies the data, protocols, performance estimation, results comparison. 
 **The extracting of the predictions data is up to the developer.**
@@ -49,21 +49,21 @@ Make a pull request with your model folder (only with the results) to this repo
 
 ## Generaing new morphs
 
-To extend this toolset with  (see [Contacts](#Contacts) )
+To extend this toolset with you morphs(generated with your method):
 
 1. [Get data](#Data).
 
 2. Generate morphs according to the [protocol](./morphing_pairing_protocols/morphing_protocol_N5.txt)
 
 ### Sharing new morphs
-If you want to contribute and extend this toolset with your morphs (generated with your method):
+If you want to contribute and extend this repo with your morphs (generated with your method):
 
-Send them to [Contact email](#Contacts and versioning) with the shared link from the same email domain that was used for the data request.
+Send them to [Contact](#Contacts) with the shared link from the same email domain that was used for the data request.
 
 
 ## Data
 
-To get the actual version of the data please sign a licence agreement and send it to the [Contact email](#Contacts and versioning)
+To get the actual version of the data please sign a licence agreement and send it to the [Contact](#Contacts)
 
 
 ## Licence agreement
@@ -71,28 +71,44 @@ To get the actual version of the data please sign a licence agreement and send i
  Soon
  ```
 
-If use of our work in your research, please cite the paper in your publications:
+If use of our work in your research, please cite these works in your publications:
 ```
 @INPROCEEDINGS{10744449,
-  author={Medvedev, Iurii and Gonçalves, Nuno},
-  booktitle={2024 IEEE International Joint Conference on Biometrics (IJCB)}, 
-  title={MorFacing: A Benchmark for Estimation Face Recognition Robustness to Face Morphing Attacks}, 
-  year={2024},
-  volume={},
-  number={},
-  pages={1-10},
-  keywords={Measurement;Printing;Deep learning;Protocols;Face recognition;Estimation;Authentication;Benchmark testing;Robustness;Security;face morphing (FM);face recognition (FR);face recognition system(FRS) computer vision;deep learning},
-  doi={10.1109/IJCB62174.2024.10744449}}
+author={Medvedev, Iurii and Gonçalves, Nuno},
+booktitle={2024 IEEE International Joint Conference on Biometrics (IJCB)}, 
+title={MorFacing: A Benchmark for Estimation Face Recognition Robustness to Face Morphing Attacks}, 
+year={2024},
+volume={},
+number={},
+pages={1-10},
+keywords={Measurement;Printing;Deep learning;Protocols;Face recognition;Estimation;Authentication;Benchmark testing;Robustness;Security;face morphing (FM);face recognition (FR);face recognition system(FRS) computer vision;deep learning},
+doi={10.1109/IJCB62174.2024.10744449}}
 
 ```
 
-## Contacts and versioning
+```
+@INPROCEEDINGS{10345995,
+author={Guerra, Carla and Marcos, João and Gonçalves, Nuno},
+booktitle={2023 International Conference of the Biometrics Special Interest Group (BIOSIG)}, 
+title={Automatic Validation of ICAO Compliance Regarding Head Coverings: An Inclusive Approach Concerning Religious Circumstances}, 
+year={2023},
+volume={},
+number={},
+pages={1-4},
+keywords={Head;Biometrics (access control);Biological system modeling;Magnetic heads;Data models;Cultural differences;Biomedical imaging;Facial Images;ICAO;ISO/IEC 19794–5;Head Covering Detection;Deep Learning},
+doi={10.1109/BIOSIG58226.2023.10345995}}
+```
 
-| Contact email   |  iurii.medvedev@isr.uc.pt   |
-| Version         |   1.0   | 
+## Contacts
+
+| Contact    | email |
+| -------- | ------- |
+| Primary Contact  | iurii.medvedev@isr.uc.pt   |
 
 
 
+## Versioning
+Version 1.0
 
 ## Acknowledgements
 The authors would like to thank the Portuguese Mint and Official Printing Office (INCM) and the 

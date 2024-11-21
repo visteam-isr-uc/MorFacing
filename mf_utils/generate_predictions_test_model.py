@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-This script generates randor test embeddings for estimating MMPMR rates 
+This script generates random test embeddings for estimating MMPMR rates 
 Namelly it crates similar embeddings for the intra class group and interpolate embeddings for morphs. 
 Level of similarity is controlled by intra_class_variance_coefficient variables
 
