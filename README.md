@@ -9,7 +9,7 @@ We only propose an example for generating random predictions [generate predictio
 ## Executing Benchmark
 
 1. [Get](#Data) and align them to match your model.
-(Or if suitable for your model use [aligned data](#Data)). 
+(Or if suitable for your model use [aligned data](#Data)).  
 To align the data we use [MTCNN](https://github.com/ipazc/mtcnn).
 We propose to have separate directories for different types of alignment.
 
@@ -58,20 +58,27 @@ To extend this toolset with you morphs(generated with your method):
 ### Sharing new morphs
 If you want to contribute and extend this repo with your morphs (generated with your method):
 
-Send them to [Contact](#Contacts) with the shared link from the same email domain that was used for the data request.
+Send them together with the method description (preferably the reference to the publication) to [Contact](#Contacts) with the shared link from the same email domain that was used for the data request.
 
 
 ## Data
 
-To get the actual version of the data please sign a licence agreement and send it to the [Contact](#Contacts)
-
+To get the actual version of the data please complete a licence agreement and send it to the [Contact](#Contacts)
+In the responce email you will receive a temporary link to the data. 
 
 ## Licence agreement
- ```
- Soon
- ```
+Licensing of the data is covered by two documents:
 
-If use of our work in your research, please cite these works in your publications:
+1. [Licence Agreement cover page for MorFacing Dataset](./licence_agreements/agreement_MorFacing.pdf)
+
+2. [Licence Agreement fo BDFC Dataset](./licence_agreements/LA_BDFC_v1.0.pdf)
+
+Read those documents and sign the Licence Agreement cover page for MorFacing Dataset. By signing it you also accept the terms and conditions covered by the Licence Agreement fo BDFC Dataset.
+Send two documents (the [signed Cover page](./licence_agreements/agreement_MorFacing.pdf) and a copy of [Licence Agreement fo BDFC Dataset](./licence_agreements/LA_BDFC_v1.0.pdf)) to the primary and secondary contacts indicated in this repo ([Contact](#Contacts)).
+
+
+
+If you use results of our work in your research, please cite these works in your publications:
 ```
 @INPROCEEDINGS{10744449,
 author={Medvedev, Iurii and Gonçalves, Nuno},
@@ -103,7 +110,8 @@ doi={10.1109/BIOSIG58226.2023.10345995}}
 
 | Contact    | email |
 | -------- | ------- |
-| Primary Contact  | iurii.medvedev@isr.uc.pt   |
+| Primary Contact  | visteam@isr.uc.pt   |
+| Secondary Contact  | iurii.medvedev@isr.uc.pt   |
 
 
 

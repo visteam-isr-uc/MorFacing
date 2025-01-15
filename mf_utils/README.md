@@ -22,9 +22,9 @@ Below are the available arguments that can be passed to the script:
 |--------------------------|--------------------------------------------------------|------------------------------------------|
 | `--path_to_data`         | Path to the root directory containing benchmark data.  | `../data/data_aligned/alignment_default/`|
 | `--path_to_predictions`  | Path to the directory where predictions will be saved. | `../models/test_model/predictions`       |
-| `--dataset_enrollment`   | Relative path to the enrollment dataset.               | `/FACING2/Originals/Enrollment`          |
-| `--dataset_reference`    | Relative path to the reference dataset.                | `/FACING2/Originals/Reference`           |
-| `--datasets_morph`       | Relative path to the morph dataset.                    | `/FACING2/Morphs/`                       |
+| `--dataset_enrollment`   | Relative path to the enrollment dataset.               | `/BDFC/Originals/Enrollment`          |
+| `--dataset_reference`    | Relative path to the reference dataset.                | `/BDFC/Originals/Reference`           |
+| `--datasets_morph`       | Relative path to the morph dataset.                    | `/BDFC/Morphs/`                       |
 | `--feature_size`         | Dimensionality of the feature vector.                  | `128`                                    |
 | `--extention`            | File extension for the images.                         | `.jpg`                                   |
 | `--similarity_enrollemnt`| Similarity coefficient for enrollment data.            | `0.8`                                    |
@@ -38,9 +38,9 @@ To run the script, use the following command:
 python generate_predictions.py \
     --path_to_data "../data/data_aligned/alignment_default/" \
     --path_to_predictions "../models/test_model/predictions" \
-    --dataset_enrollment "/FACING2/Originals/Enrollment" \
-    --dataset_reference "/FACING2/Originals/Reference" \
-    --datasets_morph "/FACING2/Morphs/" \
+    --dataset_enrollment "/BDFC/Originals/Enrollment" \
+    --dataset_reference "/BDFC/Originals/Reference" \
+    --datasets_morph "/BDFC/Morphs/" \
     --feature_size 128 \
     --extention ".jpg" \
     --similarity_enrollemnt 0.8 \
